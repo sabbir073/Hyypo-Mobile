@@ -1,0 +1,689 @@
+{
+  "nav": {
+    "home": "Home",
+    "booking": "Book Now",
+    "fleet": "Our Fleet",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Your Premium Chauffeur Service in Paris",
+    "subtitle": "Experience luxury private car service across Paris and all of France. Professional chauffeurs, premium vehicles, and unmatched punctuality for airport transfers, business travel, and bespoke journeys.",
+    "cta": "Book Your Ride"
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "rides": "Completed Rides",
+    "cities": "Cities Served",
+    "satisfaction": "Client Satisfaction"
+  },
+  "services": {
+    "title": "Our Premium Chauffeur Services",
+    "subtitle": "From Paris CDG airport transfers to hourly chauffeur hire and custom luxury journeys across France, we deliver an exceptional private car experience.",
+    "airportTransfer": {
+      "name": "Airport Transfer",
+      "description": "Seamless airport transfers to and from Paris Charles de Gaulle (CDG), Orly, and Le Bourget. Fixed pricing, flight tracking, and meet-and-greet service included.",
+      "features": {
+        "flightTracking": "Real-time flight tracking for timely pickup",
+        "meetAndGreet": "Meet and greet with name sign at arrivals",
+        "freeWaiting": "60 minutes free waiting at airport terminals",
+        "fixedPrice": "Fixed price with no hidden fees or surge charges",
+        "luggageAssistance": "Full luggage assistance by your chauffeur",
+        "allAirports": "Service to CDG, Orly, Le Bourget, and Beauvais"
+      },
+      "detailTitle": "Paris Airport Transfer Service",
+      "detailSubtitle": "Reliable, luxury airport transfers with professional chauffeurs",
+      "detailDescription": "Arrive in Paris or depart with complete peace of mind. Our airport transfer service covers all major Paris airports including Charles de Gaulle, Orly, Le Bourget, and Beauvais. Your professional chauffeur monitors your flight in real time, waits at arrivals with a name sign, and assists with all luggage. Enjoy fixed pricing with no surprise charges, even if your flight is delayed.",
+      "detailWhyChoose": "Why Choose Hyppo Mobile for Airport Transfers?",
+      "detailBenefits": {
+        "benefit1": "Fixed transparent pricing from booking to drop-off",
+        "benefit2": "Professional uniformed chauffeur waiting at arrivals",
+        "benefit3": "Real-time flight monitoring adjusts pickup automatically",
+        "benefit4": "Complimentary 60-minute waiting time at all airports",
+        "benefit5": "Premium vehicles maintained to the highest standards",
+        "benefit6": "Child seats and booster seats available on request"
+      },
+      "detailProcess": {
+        "step1Title": "Book Online",
+        "step1Description": "Select your airport, vehicle, and travel date for an instant fixed price.",
+        "step2Title": "Confirmation",
+        "step2Description": "Receive booking confirmation with your chauffeur details by email.",
+        "step3Title": "Flight Tracking",
+        "step3Description": "We monitor your flight and adjust the pickup time automatically.",
+        "step4Title": "Meet & Greet",
+        "step4Description": "Your chauffeur welcomes you at arrivals and handles your luggage."
+      }
+    },
+    "hourly": {
+      "name": "Hourly Chauffeur",
+      "description": "Hire a dedicated private chauffeur by the hour in Paris. Perfect for business meetings, city tours, shopping excursions, and events throughout the day.",
+      "features": {
+        "flexibleSchedule": "Fully flexible schedule at your pace",
+        "multipleStops": "Unlimited stops and route changes",
+        "dedicatedChauffeur": "Dedicated chauffeur for the entire duration",
+        "businessMeetings": "Ideal for business meetings and corporate travel",
+        "cityTours": "Guided Paris city tours and sightseeing",
+        "events": "Event transportation and evening services"
+      },
+      "detailTitle": "Hourly Chauffeur Service in Paris",
+      "detailSubtitle": "A dedicated private chauffeur at your disposal, by the hour",
+      "detailDescription": "Whether you have back-to-back business meetings, a day of luxury shopping, or want to explore Paris at your own pace, our hourly chauffeur service puts a professional driver and premium vehicle entirely at your disposal. Make unlimited stops, change your itinerary on the fly, and enjoy the freedom of a personal driver without the hassle of parking or navigation.",
+      "detailWhyChoose": "Why Hire an Hourly Chauffeur?",
+      "detailBenefits": {
+        "benefit1": "Complete flexibility to change your schedule and route",
+        "benefit2": "Professional chauffeur who knows Paris inside and out",
+        "benefit3": "Transparent hourly billing with no hidden costs",
+        "benefit4": "Complimentary water, Wi-Fi, and phone charging",
+        "benefit5": "Available 24 hours a day, 7 days a week",
+        "benefit6": "Multi-language chauffeurs for international clients"
+      },
+      "detailIdealFor": {
+        "scenario1": "Corporate executives with multiple meetings",
+        "scenario2": "Tourists exploring Paris landmarks",
+        "scenario3": "Shopping excursions along Avenue Montaigne",
+        "scenario4": "Evening events, galas, and restaurant hopping",
+        "scenario5": "Wedding day transportation for the bridal party",
+        "scenario6": "Diplomatic and VIP escort services"
+      }
+    },
+    "custom": {
+      "name": "Custom Journey",
+      "description": "Tailored luxury transportation for long-distance travel, weddings, wine tours, corporate events, and any bespoke journey across France and Europe.",
+      "features": {
+        "tailoredItinerary": "Fully customized itinerary planned for you",
+        "longDistance": "Long-distance travel across France and Europe",
+        "weddingService": "Wedding day chauffeur and bridal car service",
+        "corporateEvents": "Corporate event and conference transportation",
+        "wineToursChateaux": "Wine region tours to Champagne, Bordeaux, Loire",
+        "dedicatedSupport": "Dedicated concierge support throughout your trip"
+      },
+      "detailTitle": "Custom Luxury Journeys",
+      "detailSubtitle": "Bespoke private car service tailored to your every need",
+      "detailDescription": "When your journey goes beyond a simple transfer, Hyppo Mobile crafts a fully personalized experience. From romantic château tours through the Loire Valley to corporate retreats in Provence, wedding day luxury, or cross-border travel to Brussels, Geneva, or London, our team designs a seamless itinerary with premium vehicles and experienced chauffeurs.",
+      "detailWhyChoose": "Why Choose a Custom Journey?",
+      "detailBenefits": {
+        "benefit1": "Completely bespoke itinerary designed around you",
+        "benefit2": "Expert chauffeurs familiar with all regions of France",
+        "benefit3": "Premium vehicle selection including Rolls-Royce and Bentley",
+        "benefit4": "Concierge service for restaurant and hotel bookings",
+        "benefit5": "Multi-day journey packages with competitive pricing",
+        "benefit6": "Cross-border travel to Belgium, Switzerland, UK, and more"
+      },
+      "detailPopular": {
+        "journey1": "Paris to Champagne wine tasting day trip",
+        "journey2": "Loire Valley château tour over two days",
+        "journey3": "Wedding transportation with decorated vehicle",
+        "journey4": "Paris to Mont Saint-Michel round trip",
+        "journey5": "Bordeaux vineyard tour from Paris",
+        "journey6": "Corporate retreat transfers across multiple venues"
+      }
+    }
+  },
+  "vehicles": {
+    "title": "Our Luxury Fleet",
+    "subtitle": "Choose from our collection of premium vehicles, each maintained to the highest standards and equipped with every comfort for your journey.",
+    "regularTitle": "Standard Fleet",
+    "regularSubtitle": "Our most popular vehicles with transparent fixed pricing",
+    "onDemandTitle": "On-Demand Premium Collection",
+    "onDemandSubtitle": "Exclusive luxury vehicles available by request with custom pricing",
+    "passengers": "Passengers",
+    "luggage": "Luggage",
+    "from": "From",
+    "perHour": "per hour",
+    "requestQuote": "Request Quote",
+    "features": {
+      "leatherSeats": "Leather seats",
+      "premiumLeather": "Premium leather interior",
+      "wifi": "Complimentary Wi-Fi",
+      "climateControl": "Dual-zone climate control",
+      "phoneCharger": "USB and wireless phone charging",
+      "bottledWater": "Complimentary bottled water",
+      "champagne": "Complimentary champagne",
+      "newspaper": "Daily newspapers and magazines",
+      "extraLuggage": "Extra luggage capacity",
+      "massageSeats": "Massage seats",
+      "privacyPartition": "Privacy partition",
+      "entertainmentSystem": "Rear entertainment system",
+      "starlightHeadliner": "Starlight headliner ceiling",
+      "handcraftedInterior": "Handcrafted wood and leather interior",
+      "terrainResponse": "All-terrain capability",
+      "panoramicRoof": "Panoramic glass roof"
+    },
+    "businessClass": {
+      "name": "Business Class",
+      "description": "The Mercedes-Benz E-Class or BMW 5 Series offers a perfect balance of comfort and elegance for airport transfers and business travel in Paris."
+    },
+    "vanXl": {
+      "name": "Van XL",
+      "description": "The Mercedes V-Class accommodates up to 7 passengers with generous luggage space, ideal for family airport transfers and group travel."
+    },
+    "firstClass": {
+      "name": "First Class",
+      "description": "The Mercedes-Benz S-Class delivers an unparalleled luxury experience with executive-level comfort for discerning travelers."
+    },
+    "mercedesMaybach": {
+      "name": "Mercedes-Maybach",
+      "description": "The pinnacle of Mercedes luxury. The Maybach S-Class offers unrivaled refinement with massage seats, a privacy partition, and champagne service."
+    },
+    "vanVip": {
+      "name": "Van VIP",
+      "description": "A luxury-appointed Mercedes V-Class with VIP interior, premium leather, champagne bar, and entertainment system for executive group travel."
+    },
+    "sprinter": {
+      "name": "Mercedes Sprinter VIP",
+      "description": "The ultimate group luxury transport. Our VIP-configured Sprinter seats up to 12 guests in first-class comfort with entertainment and refreshments."
+    },
+    "rollsRoyce": {
+      "name": "Rolls-Royce Phantom",
+      "description": "The epitome of automotive luxury. The Rolls-Royce Phantom features the iconic starlight headliner, hand-stitched leather, and whisper-quiet ride."
+    },
+    "bentley": {
+      "name": "Bentley Flying Spur",
+      "description": "British craftsmanship at its finest. The Flying Spur combines breathtaking performance with handcrafted luxury for an unforgettable journey."
+    },
+    "rangeRover": {
+      "name": "Range Rover Autobiography",
+      "description": "Commanding presence meets supreme comfort. The Range Rover Autobiography provides a premium experience with panoramic views and all-terrain capability."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Booking your premium chauffeur service in Paris takes just a few simple steps.",
+    "step1": {
+      "title": "Choose Your Service",
+      "description": "Select from airport transfer, hourly chauffeur, or custom journey. Pick your preferred vehicle from our luxury fleet."
+    },
+    "step2": {
+      "title": "Book Online",
+      "description": "Fill in your travel details and receive an instant price for standard services or a prompt custom quote."
+    },
+    "step3": {
+      "title": "Receive Confirmation",
+      "description": "Get your booking confirmation with chauffeur details and contact information via email and SMS."
+    },
+    "step4": {
+      "title": "Enjoy Your Ride",
+      "description": "Your professional chauffeur arrives on time with a premium vehicle, ready to deliver an exceptional experience."
+    }
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Hyppo Mobile",
+    "subtitle": "We set the standard for luxury private car service in Paris with uncompromising quality and attention to detail.",
+    "professionalChauffeurs": {
+      "title": "Professional Chauffeurs",
+      "description": "Our chauffeurs are rigorously selected, fully licensed, and trained in hospitality. They know every route in Paris and maintain the highest standards of discretion and professionalism."
+    },
+    "availability": {
+      "title": "24/7 Availability",
+      "description": "Whether it's an early morning airport run or a late-night event, our service operates around the clock, 365 days a year. Book anytime, travel anytime."
+    },
+    "allOfFrance": {
+      "title": "All of France",
+      "description": "While based in Paris, our chauffeur service covers the entire country. From Riviera transfers to Champagne tours, we take you wherever you need to go."
+    },
+    "luxuryFleet": {
+      "title": "Luxury Fleet",
+      "description": "From the Mercedes E-Class to the Rolls-Royce Phantom, our vehicles are meticulously maintained, spotlessly clean, and equipped with every modern comfort."
+    },
+    "punctuality": {
+      "title": "Guaranteed Punctuality",
+      "description": "We monitor traffic and flights in real time. Your chauffeur always arrives early, so you never have to wait. Punctuality is our promise."
+    },
+    "multilingualDrivers": {
+      "title": "Multilingual Drivers",
+      "description": "Our chauffeurs speak French, English, and often additional languages, ensuring clear communication and a comfortable experience for international guests."
+    }
+  },
+  "serviceAreas": {
+    "title": "Where We Operate",
+    "subtitle": "Premium chauffeur service across Paris and all of France, with cross-border travel to neighboring countries.",
+    "paris": "Paris & Ile-de-France",
+    "airports": "CDG, Orly, Le Bourget, Beauvais Airports",
+    "riviera": "French Riviera & Cote d'Azur",
+    "loire": "Loire Valley & Chateaux",
+    "champagne": "Champagne Region",
+    "bordeaux": "Bordeaux & Wine Country",
+    "normandy": "Normandy & Brittany",
+    "international": "Cross-Border to Belgium, Switzerland, UK"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Discover why discerning travelers choose Hyppo Mobile for their private car service in Paris.",
+    "client1": {
+      "name": "Sophie Laurent",
+      "role": "Business Executive",
+      "content": "Hyppo Mobile has been my go-to chauffeur service in Paris for over three years. The drivers are always impeccably dressed, perfectly punctual, and the Mercedes S-Class is a dream for my daily commute between meetings."
+    },
+    "client2": {
+      "name": "James Richardson",
+      "role": "International Traveler",
+      "content": "I use Hyppo Mobile every time I fly into CDG. The airport transfer service is flawless - my driver was waiting with a name sign even though my flight was delayed by an hour. Outstanding professionalism."
+    },
+    "client3": {
+      "name": "Marie-Claire Dubois",
+      "role": "Wedding Planner",
+      "content": "We have partnered with Hyppo Mobile for our luxury weddings for two seasons now. The Rolls-Royce Phantom service is extraordinary, and the chauffeurs handle every detail with grace and discretion."
+    },
+    "client4": {
+      "name": "Thomas Weber",
+      "role": "Corporate Travel Manager",
+      "content": "Managing executive travel for our Paris office requires reliability above all else. Hyppo Mobile delivers consistently excellent service with a diverse fleet that meets every occasion and budget."
+    }
+  },
+  "partners": {
+    "title": "Trusted Partners",
+    "subtitle": "We proudly collaborate with leading hotels, airlines, and luxury brands across Paris."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our premium chauffeur service in Paris.",
+    "categories": {
+      "all": "All Questions",
+      "booking": "Booking",
+      "pricing": "Pricing",
+      "services": "Services",
+      "vehicles": "Vehicles",
+      "cancellation": "Cancellation"
+    },
+    "booking": {
+      "q1": "How do I book a chauffeur service with Hyppo Mobile?",
+      "a1": "You can book directly through our website by selecting your service type, choosing a vehicle, and entering your travel details. You will receive an instant confirmation by email. Alternatively, you can call us or send a WhatsApp message for personalized assistance.",
+      "q2": "How far in advance should I book my private car service?",
+      "a2": "We recommend booking at least 24 hours in advance to guarantee vehicle availability, especially for premium and on-demand vehicles. However, we do accommodate last-minute bookings when possible, so do not hesitate to contact us even on short notice.",
+      "q3": "Can I modify my booking after confirmation?",
+      "a3": "Yes, you can modify your booking up to 6 hours before the scheduled pickup time at no extra charge. Changes to vehicle type or significant route alterations may affect pricing. Please contact our support team to make any changes."
+    },
+    "pricing": {
+      "q1": "How is the pricing calculated for airport transfers?",
+      "a1": "Airport transfer pricing is fixed and based on the vehicle category. The price covers door-to-door service between any Paris address and the airport, including 60 minutes of free waiting time, flight tracking, meet-and-greet, and luggage assistance. There are no hidden fees or surge charges.",
+      "q2": "Are there any additional fees I should know about?",
+      "a2": "Our pricing is fully transparent. The quoted price includes the vehicle, chauffeur, fuel, tolls, parking, and waiting time (60 minutes for airports, 15 minutes for other pickups). Additional charges apply only for extended waiting beyond the included allowance or late-night bookings between midnight and 6 AM.",
+      "q3": "What payment methods do you accept?",
+      "a3": "We accept all major credit and debit cards (Visa, Mastercard, American Express), bank transfers for corporate accounts, and cash payments. Payment is processed securely after your ride is completed. Corporate clients can arrange monthly invoicing."
+    },
+    "services": {
+      "q1": "Do you provide airport meet-and-greet service?",
+      "a1": "Yes, for all airport transfers your chauffeur will be waiting in the arrivals hall holding a sign with your name. They will assist you with your luggage and escort you to your vehicle. We track your flight in real time, so the pickup time adjusts automatically if your flight is early or delayed.",
+      "q2": "Can I hire a chauffeur for a full day or multi-day trip?",
+      "a2": "Absolutely. Our hourly chauffeur service is perfect for full-day hire, and we offer special rates for multi-day bookings. Whether you need a chauffeur for a day of business meetings, a weekend getaway to Champagne, or a week-long tour, we will create a custom package for you.",
+      "q3": "Do you offer wedding car hire with a chauffeur?",
+      "a3": "Yes, we specialize in luxury wedding transportation. Choose from our premium fleet including the Rolls-Royce Phantom and Bentley Flying Spur. We provide vehicle decoration, a uniformed chauffeur, and coordination with your wedding planner to ensure every detail is perfect."
+    },
+    "vehicles": {
+      "q1": "What vehicles are available in your fleet?",
+      "a1": "Our fleet includes the Mercedes-Benz E-Class (Business Class), Mercedes V-Class (Van XL for groups), Mercedes S-Class (First Class), Mercedes-Maybach, VIP Van, Mercedes Sprinter (up to 12 passengers), Rolls-Royce Phantom, Bentley Flying Spur, and Range Rover Autobiography.",
+      "q2": "Can I request a specific vehicle for my booking?",
+      "a2": "Yes, you select your preferred vehicle during the booking process. Standard fleet vehicles (Business Class, Van XL, First Class) are available with instant pricing. Premium on-demand vehicles (Maybach, Rolls-Royce, Bentley, Range Rover) require a quote and are subject to availability.",
+      "q3": "Are child seats available in your vehicles?",
+      "a3": "Yes, we provide child seats and booster seats at no additional charge. Please indicate the number and ages of children when making your booking so we can install the appropriate safety seats in advance. We carry infant seats, child seats, and booster seats."
+    },
+    "cancellation": {
+      "q1": "What is your cancellation policy?",
+      "a1": "Cancellations made more than 24 hours before the scheduled pickup are fully refundable. Cancellations between 12 and 24 hours before pickup incur a 50% charge. Cancellations less than 12 hours before pickup or no-shows are charged in full. On-demand vehicles may have different terms.",
+      "q2": "What happens if my flight is cancelled or significantly delayed?",
+      "a2": "Since we track all flights in real time, we automatically adjust your pickup time for delays. If your flight is cancelled, please notify us as soon as possible and we will either reschedule your transfer at no extra charge or provide a full refund.",
+      "q3": "Can I get a refund if I need to shorten my hourly booking?",
+      "a3": "If you end your hourly booking earlier than planned, you will be charged for the minimum booking time (2 hours) or the actual time used, whichever is greater. Unused time beyond the minimum is not charged. Please note this applies only to hourly service bookings."
+    }
+  },
+  "cta": {
+    "title": "Ready to Experience Premium Private Car Service?",
+    "subtitle": "Book your luxury chauffeur in Paris today and discover why thousands of clients trust Hyppo Mobile for their transportation needs.",
+    "bookNow": "Book Now",
+    "callUs": "Or call us at +33 1 23 45 67 89"
+  },
+  "newsletter": {
+    "title": "Stay Informed",
+    "subtitle": "Subscribe to receive exclusive offers, travel tips, and updates from Hyppo Mobile.",
+    "placeholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "privacy": "We respect your privacy. Unsubscribe anytime."
+  },
+  "booking": {
+    "title": "Book Your Chauffeur",
+    "subtitle": "Complete the form below to book your premium private car service in Paris. Receive instant pricing for standard vehicles or a prompt custom quote.",
+    "serviceType": "Service Type",
+    "selectService": "Select a service",
+    "airportTransfer": "Airport Transfer",
+    "hourlyChauffeur": "Hourly Chauffeur",
+    "customJourney": "Custom Journey",
+    "selectVehicle": "Select Vehicle",
+    "chooseVehicle": "Choose your vehicle",
+    "yourDetails": "Your Details",
+    "customerName": "Full Name",
+    "customerNamePlaceholder": "Enter your full name",
+    "customerEmail": "Email Address",
+    "customerEmailPlaceholder": "your@email.com",
+    "customerPhone": "Phone Number",
+    "customerPhonePlaceholder": "+33 6 12 34 56 78",
+    "tripDetails": "Trip Details",
+    "pickupLocation": "Pickup Location",
+    "pickupPlaceholder": "Enter pickup address",
+    "dropoffLocation": "Drop-off Location",
+    "dropoffPlaceholder": "Enter destination address",
+    "date": "Date",
+    "datePlaceholder": "Select date",
+    "time": "Time",
+    "timePlaceholder": "Select time",
+    "selectAirport": "Select airport",
+    "airportCDG": "Paris Charles de Gaulle (CDG)",
+    "airportOrly": "Paris Orly (ORY)",
+    "airportLeBourget": "Paris Le Bourget (LBG)",
+    "airportBeauvais": "Beauvais-Tille (BVA)",
+    "flightNumber": "Flight Number",
+    "flightNumberPlaceholder": "e.g. AF1234",
+    "hours": "Number of Hours",
+    "hoursPlaceholder": "Select hours (1-24)",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Special requests, child seats, extra stops...",
+    "priceEstimate": "Estimated Price",
+    "totalPrice": "Total Price",
+    "quoteRequired": "Custom quote required",
+    "quoteExplanation": "For this vehicle and service combination, we will provide a personalized quote within 1 hour.",
+    "submitBooking": "Confirm Booking",
+    "submitForQuote": "Request Quote",
+    "bookingSuccess": "Booking confirmed! Check your email for details.",
+    "quoteSuccess": "Quote request sent! We will contact you within 1 hour.",
+    "bookingError": "Something went wrong. Please try again or call us directly.",
+    "metaTitle": "Book a Chauffeur in Paris | Airport Transfer & Hourly Hire | Hyppo Mobile",
+    "metaDescription": "Book your luxury chauffeur service in Paris online. Instant pricing for airport transfers from CDG and Orly, hourly private car rental, and custom journeys. Premium fleet available.",
+    "vehicleSelection": "Select Your Vehicle",
+    "customerInfo": "Your Information",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "priceSummary": "Price Summary",
+    "hoursLabel": "hours",
+    "priceOnRequest": "Price on request",
+    "success": {
+      "title": "Booking Confirmed!",
+      "message": "Thank you for booking with Hyppo Mobile. You will receive a confirmation email shortly with your chauffeur and vehicle details."
+    },
+    "bookAnother": "Book Another Ride",
+    "submitError": "Something went wrong. Please try again or call us directly.",
+    "airportDetails": "Airport Details",
+    "selectRoute": "Select Your Route",
+    "airportRoute": "Airport Route",
+    "routes": {
+      "parisCdg": "Paris → Charles de Gaulle (CDG)",
+      "cdgParis": "Charles de Gaulle (CDG) → Paris",
+      "parisOrly": "Paris → Orly (ORY)",
+      "orlyParis": "Orly (ORY) → Paris",
+      "parisBeauvais": "Paris → Beauvais (BVA)",
+      "beauvaisParis": "Beauvais (BVA) → Paris",
+      "cdgOrly": "Charles de Gaulle (CDG) → Orly (ORY)",
+      "orlyCdg": "Orly (ORY) → Charles de Gaulle (CDG)"
+    },
+    "dateTime": "Date & Time",
+    "submitting": "Submitting...",
+    "submit": "Confirm Booking",
+    "airport": "Airport Transfer",
+    "airportDesc": "To and from all Paris airports with professional chauffeur service",
+    "hourly": "Hourly Chauffeur",
+    "hourlyDesc": "Hire a private chauffeur by the hour for your appointments and events",
+    "custom": "Custom Journey",
+    "customDesc": "Tailored transportation for any destination across France and beyond",
+    "maxKmNote": "Maximum 20 km included per hour. Additional distance charged separately."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or need a custom quote? Reach out to our team and we will respond promptly.",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+33 6 12 34 56 78",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help you?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your transportation needs...",
+    "send": "Send Message",
+    "success": "Message sent successfully! We will get back to you shortly.",
+    "error": "Failed to send message. Please try again or call us directly.",
+    "info": {
+      "title": "Get in Touch",
+      "address": "123 Avenue des Champs-Elysees, 75008 Paris, France",
+      "phone": "+33 1 23 45 67 89",
+      "email": "contact@hyppomobile.com",
+      "hours": "Available 24/7",
+      "whatsapp": "WhatsApp: +33 6 12 34 56 78"
+    }
+  },
+  "about": {
+    "title": "About Hyppo Mobile",
+    "subtitle": "Discover the story behind Paris's trusted premium chauffeur service.",
+    "story": {
+      "title": "Our Story",
+      "p1": "Hyppo Mobile was founded with a clear vision: to redefine private transportation in Paris by combining the highest standards of luxury, reliability, and personalized service. What started as a small fleet of premium vehicles has grown into one of the most trusted chauffeur services in France.",
+      "p2": "Over the past decade, we have completed more than 5,000 rides for discerning travelers, corporate executives, diplomats, and celebrities who demand nothing less than excellence. Our commitment to punctuality, discretion, and comfort has earned us a 98% client satisfaction rate.",
+      "p3": "Today, our fleet includes everything from the elegant Mercedes-Benz E-Class to the prestigious Rolls-Royce Phantom, ensuring we have the perfect vehicle for every occasion. Every journey with Hyppo Mobile is an experience crafted around your needs."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To deliver an unparalleled private car experience that combines luxury, safety, and reliability. We strive to make every journey memorable, whether it is a five-minute airport pickup or a week-long tour across France."
+    },
+    "values": {
+      "title": "Our Values",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We maintain the highest standards in every aspect of our service, from vehicle maintenance to chauffeur training."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Punctuality is non-negotiable. We track flights, monitor traffic, and always arrive early."
+      },
+      "discretion": {
+        "title": "Discretion",
+        "description": "Your privacy is paramount. Our chauffeurs are trained in confidentiality and professional conduct."
+      },
+      "personalization": {
+        "title": "Personalization",
+        "description": "Every client is unique. We tailor our service to your specific preferences and requirements."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Our chauffeurs are the heart of Hyppo Mobile. Each driver is carefully selected through a rigorous process that evaluates driving skill, local knowledge, language proficiency, and hospitality. All chauffeurs hold professional VTC licenses and undergo regular training in safety, etiquette, and customer service."
+    }
+  },
+  "fleet": {
+    "title": "Our Premium Fleet",
+    "subtitle": "Explore our collection of luxury vehicles, each meticulously maintained and equipped to deliver an exceptional private car experience in Paris and beyond.",
+    "regularSection": "Standard Fleet",
+    "regularDescription": "Our core fleet of premium vehicles with transparent, fixed pricing for airport transfers and hourly hire.",
+    "onDemandSection": "On-Demand Premium Collection",
+    "onDemandDescription": "Exclusive ultra-luxury vehicles available by request. Contact us for custom pricing and availability.",
+    "bookThisVehicle": "Book This Vehicle",
+    "requestQuoteFor": "Request Quote"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "These terms and conditions govern your use of Hyppo Mobile chauffeur services. By booking with us, you agree to the following terms.",
+    "section1": {
+      "title": "1. Booking and Confirmation",
+      "content": "All bookings are subject to vehicle availability. A booking is confirmed only when you receive a written confirmation by email. We reserve the right to assign an equivalent or superior vehicle if the requested vehicle is unavailable. Bookings can be made through our website, by phone, or via email."
+    },
+    "section2": {
+      "title": "2. Pricing and Payment",
+      "content": "Prices for standard vehicles and airport transfers are fixed at the time of booking. Hourly rates are charged per hour with a minimum of 2 hours. Custom journey quotes are valid for 7 days from issue. Payment is due upon completion of service unless alternative arrangements have been made for corporate accounts. We accept Visa, Mastercard, American Express, bank transfer, and cash."
+    },
+    "section3": {
+      "title": "3. Cancellation Policy",
+      "content": "Free cancellation up to 24 hours before the scheduled pickup time. Cancellations between 12 and 24 hours before pickup incur a 50% charge. Cancellations less than 12 hours before pickup or no-shows are charged at the full rate. On-demand and premium vehicles may have specific cancellation terms provided at the time of booking."
+    },
+    "section4": {
+      "title": "4. Waiting Time",
+      "content": "For airport transfers, 60 minutes of free waiting time is included from the actual flight landing time. For all other pickups, 15 minutes of free waiting time is included from the scheduled pickup time. Additional waiting is charged at a rate communicated at the time of booking."
+    },
+    "section5": {
+      "title": "5. Passenger Responsibilities",
+      "content": "Passengers must behave in a safe and respectful manner. Smoking is strictly prohibited in all vehicles. The passenger is liable for any damage caused to the vehicle interior, including stains, burns, or breakages. Hyppo Mobile reserves the right to terminate a journey if passenger behavior endangers safety."
+    },
+    "section6": {
+      "title": "6. Liability",
+      "content": "Hyppo Mobile carries comprehensive professional liability and passenger insurance as required by French law for VTC operators. Our liability for delays caused by traffic, road closures, or force majeure events is limited to a goodwill gesture at our discretion. We are not responsible for items left in vehicles, though we will make reasonable efforts to recover and return them."
+    },
+    "section7": {
+      "title": "7. Data Protection",
+      "content": "We collect and process personal data in accordance with the European General Data Protection Regulation (GDPR) and French data protection law. For full details, please refer to our Privacy Policy."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "Hyppo Mobile is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your personal information.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "content": "We collect information you provide when booking a service, including your name, email address, phone number, pickup and drop-off locations, travel dates, and payment information. We also collect technical data such as your IP address, browser type, and device information when you visit our website."
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "content": "Your personal information is used to process and fulfill your bookings, communicate booking confirmations and updates, provide customer support, send marketing communications (only with your consent), improve our services and website experience, and comply with legal obligations."
+    },
+    "section3": {
+      "title": "3. Data Sharing",
+      "content": "We do not sell your personal data to third parties. We share your information only with our chauffeurs (name and pickup details for service delivery), payment processors (for secure transaction processing), and legal authorities (when required by law). All third-party partners are bound by data protection agreements."
+    },
+    "section4": {
+      "title": "4. Data Retention",
+      "content": "We retain your personal data for as long as necessary to provide our services and comply with legal obligations. Booking records are kept for 5 years in accordance with French commercial law. Marketing consent records are maintained until you withdraw consent. You can request deletion of your data at any time."
+    },
+    "section5": {
+      "title": "5. Your Rights",
+      "content": "Under the GDPR, you have the right to access your personal data, rectify inaccurate data, request erasure of your data, restrict processing, data portability, object to processing, and withdraw consent. To exercise any of these rights, contact us at privacy@hyppomobile.com."
+    },
+    "section6": {
+      "title": "6. Cookies",
+      "content": "Our website uses cookies to ensure functionality, analyze traffic, and personalize your experience. Essential cookies are required for the website to function. Analytics cookies help us understand how visitors use our site. Marketing cookies are used only with your explicit consent. You can manage cookie preferences through your browser settings."
+    },
+    "section7": {
+      "title": "7. Contact",
+      "content": "For any questions about this privacy policy or your personal data, please contact our Data Protection Officer at privacy@hyppomobile.com or write to Hyppo Mobile, 123 Avenue des Champs-Elysees, 75008 Paris, France."
+    }
+  },
+  "footer": {
+    "description": "Premium private chauffeur service in Paris and across France. Luxury airport transfers, hourly hire, and custom journeys with professional drivers.",
+    "services": "Services",
+    "airportTransfers": "Airport Transfers",
+    "hourlyChauffeur": "Hourly Chauffeur",
+    "customJourneys": "Custom Journeys",
+    "corporateTravel": "Corporate Travel",
+    "weddingService": "Wedding Car Service",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "ourFleet": "Our Fleet",
+    "careers": "Careers",
+    "blog": "Blog",
+    "legal": "Legal",
+    "termsConditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "legalNotice": "Legal Notice",
+    "contact": "Contact",
+    "address": "123 Avenue des Champs-Elysees",
+    "city": "75008 Paris, France",
+    "phone": "+33 1 23 45 67 89",
+    "email": "contact@hyppomobile.com",
+    "copyright": "Hyppo Mobile. All rights reserved. VTC registered in France.",
+    "madeWith": "Made with excellence in Paris"
+  },
+  "common": {
+    "bookNow": "Book Now",
+    "requestQuote": "Request a Quote",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "submitForQuote": "Submit for Quote",
+    "sendMessage": "Send Message",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "search": "Search",
+    "noResults": "No results found",
+    "readMore": "Read More",
+    "seeAll": "See All",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "callNow": "Call Now",
+    "whatsapp": "WhatsApp",
+    "from": "From",
+    "perHour": "per hour",
+    "free": "Free",
+    "included": "Included",
+    "optional": "Optional",
+    "required": "Required"
+  },
+  "validation": {
+    "nameMin": "Name must be at least 2 characters",
+    "emailInvalid": "Please enter a valid email address",
+    "phoneMin": "Phone number must be at least 8 digits",
+    "pickupRequired": "Pickup location is required",
+    "dropoffRequired": "Drop-off location is required",
+    "dateRequired": "Please select a date",
+    "timeRequired": "Please select a time",
+    "airportRequired": "Please select an airport for airport transfers",
+    "hoursRequired": "Please specify the number of hours (1-24)",
+    "subjectRequired": "Subject must be at least 3 characters",
+    "messageMin": "Message must be at least 10 characters",
+    "selectService": "Please select a service type",
+    "selectVehicle": "Please select a vehicle",
+    "pleaseFillRequired": "Please fill in the following required fields:"
+  },
+  "meta": {
+    "home": {
+      "title": "Hyppo Mobile | Premium Chauffeur Service in Paris | VTC & Airport Transfers",
+      "description": "Book a luxury private car with professional chauffeur in Paris. Airport transfers from CDG & Orly, hourly hire, and custom journeys. Premium fleet including Mercedes, Rolls-Royce & Bentley."
+    },
+    "booking": {
+      "title": "Book a Chauffeur in Paris | Instant Pricing | Hyppo Mobile",
+      "description": "Book your premium private car service in Paris online. Instant pricing for airport transfers and hourly chauffeur hire. Choose from our luxury fleet of Mercedes, Rolls-Royce, and more."
+    },
+    "fleet": {
+      "title": "Our Luxury Fleet | Mercedes, Rolls-Royce, Bentley | Hyppo Mobile Paris",
+      "description": "Explore our premium fleet of luxury vehicles for hire with chauffeur in Paris. Mercedes S-Class, Rolls-Royce Phantom, Bentley Flying Spur, Range Rover, and more."
+    },
+    "services": {
+      "title": "Chauffeur Services in Paris | Airport Transfers & Hourly Hire | Hyppo Mobile",
+      "description": "Discover our premium chauffeur services: Paris airport transfers with flight tracking, hourly private car hire, and bespoke luxury journeys across France and Europe."
+    },
+    "about": {
+      "title": "About Hyppo Mobile | Trusted Premium Chauffeur Service in Paris",
+      "description": "Learn about Hyppo Mobile, Paris's trusted premium chauffeur service. Over 10 years of experience, 5000+ completed rides, and a 98% client satisfaction rate."
+    },
+    "contact": {
+      "title": "Contact Hyppo Mobile | Premium Chauffeur Service Paris",
+      "description": "Get in touch with Hyppo Mobile for luxury private car service in Paris. Available 24/7 by phone, email, or WhatsApp. Custom quotes within 1 hour."
+    },
+    "faq": {
+      "title": "FAQ | Chauffeur Service Paris | Hyppo Mobile",
+      "description": "Frequently asked questions about Hyppo Mobile's premium chauffeur service in Paris. Booking, pricing, vehicles, cancellation policy, and more."
+    },
+    "terms": {
+      "title": "Terms and Conditions | Hyppo Mobile Paris",
+      "description": "Read the terms and conditions for Hyppo Mobile's premium chauffeur and private car service in Paris, France."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Hyppo Mobile Paris",
+      "description": "Hyppo Mobile's privacy policy. Learn how we collect, use, and protect your personal data in compliance with GDPR."
+    },
+    "airportTransfer": {
+      "title": "Paris Airport Transfer Service | CDG, Orly, Le Bourget | Hyppo Mobile",
+      "description": "Book a luxury airport transfer in Paris. Professional chauffeur service to and from CDG, Orly, Le Bourget, and Beauvais. Fixed pricing, flight tracking, and meet-and-greet included."
+    },
+    "hourly": {
+      "title": "Hourly Chauffeur Hire Paris | Private Car by the Hour | Hyppo Mobile",
+      "description": "Hire a professional chauffeur by the hour in Paris. Perfect for business meetings, city tours, shopping, and events. Premium vehicles and flexible scheduling."
+    },
+    "custom": {
+      "title": "Custom Luxury Journeys | Wine Tours, Weddings, Long Distance | Hyppo Mobile",
+      "description": "Create your perfect luxury journey with Hyppo Mobile. Wine tours to Champagne and Bordeaux, wedding car hire, long-distance travel, and bespoke itineraries across France."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(rm -rf \"/c/Users/Sabbir Ahmed/OneDrive/Desktop/hyppomobil-temp\")",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next:*)",
+      "Bash(npm list:*)",
+      "Bash(xargs grep:*)",
+      "Bash(while read:*)",
+      "Bash(do sed:*)",
+      "Bash(echo \"Updated: $f\")",
+      "Bash(done)",
+      "Bash(mv \"Business Class.jpg\" \"business-class.jpg\")",
+      "Bash(mv \"Van XL.jpg\" \"van-xl.jpg\")",
+      "Bash(mv \"First Class.jpg\" \"first-class.jpg\")",
+      "Bash(mv \"Mercedes-Maybach.jpg\" \"mercedes-maybach.jpg\")",
+      "Bash(mv \"Van VIP.jpg\" \"van-vip.jpg\")",
+      "Bash(mv \"Mercedes Sprinter VIP.jpg\" \"sprinter.jpg\")",
+      "Bash(mv \"Rolls-Royce Phantom.jpg\" \"rolls-royce.jpg\")",
+      "Bash(mv \"Bentley Flying Spur.jpg\" \"bentley.jpg\")",
+      "Bash(mv \"Range Rover Autobiography.jpg\" \"range-rover.jpg\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Sabbir Ahmed\\OneDrive\\Desktop\\hyppomobil\\src\\app\\[locale]"
+    ]
+  }
+}

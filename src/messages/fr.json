@@ -1,0 +1,689 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "booking": "Reservez",
+    "fleet": "Notre Flotte",
+    "services": "Services",
+    "about": "A Propos",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Votre Chauffeur Prive Premium a Paris",
+    "subtitle": "Decouvrez un service de voiture de transport avec chauffeur (VTC) de luxe a Paris et dans toute la France. Chauffeurs professionnels, vehicules haut de gamme et ponctualite irreprochable pour vos transferts aeroport, deplacements professionnels et voyages sur mesure.",
+    "cta": "Reservez Votre Course"
+  },
+  "stats": {
+    "years": "Annees d'Experience",
+    "rides": "Courses Effectuees",
+    "cities": "Villes Desservies",
+    "satisfaction": "Satisfaction Client"
+  },
+  "services": {
+    "title": "Nos Services VTC Premium",
+    "subtitle": "Du transfert aeroport Paris CDG a la mise a disposition par heure et aux voyages sur mesure a travers la France, nous offrons une experience VTC d'exception.",
+    "airportTransfer": {
+      "name": "Transfert Aeroport",
+      "description": "Transferts aeroport fluides vers et depuis Paris Charles de Gaulle (CDG), Orly et Le Bourget. Tarif fixe, suivi de vol et accueil personnalise inclus.",
+      "features": {
+        "flightTracking": "Suivi de vol en temps reel pour un accueil ponctuel",
+        "meetAndGreet": "Accueil avec panneau nominatif en zone d'arrivee",
+        "freeWaiting": "60 minutes d'attente gratuite aux terminaux",
+        "fixedPrice": "Tarif fixe sans frais caches ni majorations",
+        "luggageAssistance": "Prise en charge complete de vos bagages",
+        "allAirports": "Service vers CDG, Orly, Le Bourget et Beauvais"
+      },
+      "detailTitle": "Service de Transfert Aeroport Paris",
+      "detailSubtitle": "Transferts aeroport fiables et luxueux avec chauffeurs professionnels",
+      "detailDescription": "Arrivez a Paris ou repartez en toute serenite. Notre service de transfert aeroport couvre tous les grands aeroports parisiens, notamment Charles de Gaulle, Orly, Le Bourget et Beauvais. Votre chauffeur professionnel suit votre vol en temps reel, vous attend en zone d'arrivee avec un panneau nominatif et prend en charge l'ensemble de vos bagages. Profitez d'un tarif fixe sans surprise, meme en cas de retard de votre vol.",
+      "detailWhyChoose": "Pourquoi choisir Hyppo Mobile pour vos transferts aeroport ?",
+      "detailBenefits": {
+        "benefit1": "Tarification transparente et fixe de la reservation a la destination",
+        "benefit2": "Chauffeur professionnel en tenue vous attendant aux arrivees",
+        "benefit3": "Suivi de vol en temps reel avec ajustement automatique de l'heure",
+        "benefit4": "60 minutes d'attente offertes dans tous les aeroports",
+        "benefit5": "Vehicules premium entretenus selon les plus hauts standards",
+        "benefit6": "Sieges enfants et rehausseurs disponibles sur demande"
+      },
+      "detailProcess": {
+        "step1Title": "Reservez en Ligne",
+        "step1Description": "Selectionnez votre aeroport, vehicule et date de voyage pour obtenir un tarif fixe instantane.",
+        "step2Title": "Confirmation",
+        "step2Description": "Recevez la confirmation de votre reservation avec les coordonnees de votre chauffeur par email.",
+        "step3Title": "Suivi de Vol",
+        "step3Description": "Nous suivons votre vol et ajustons l'heure de prise en charge automatiquement.",
+        "step4Title": "Accueil Personnalise",
+        "step4Description": "Votre chauffeur vous accueille aux arrivees et prend en charge vos bagages."
+      }
+    },
+    "hourly": {
+      "name": "Chauffeur a l'Heure",
+      "description": "Mise a disposition d'un chauffeur prive a l'heure a Paris. Ideal pour les reunions d'affaires, visites touristiques, shopping et evenements tout au long de la journee.",
+      "features": {
+        "flexibleSchedule": "Emploi du temps entierement flexible a votre rythme",
+        "multipleStops": "Arrets et changements d'itineraire illimites",
+        "dedicatedChauffeur": "Chauffeur dedie pour toute la duree de la prestation",
+        "businessMeetings": "Ideal pour les reunions professionnelles et voyages d'affaires",
+        "cityTours": "Visites guidees de Paris et decouverte de la ville",
+        "events": "Transport evenementiel et services de soiree"
+      },
+      "detailTitle": "Service de Chauffeur a l'Heure a Paris",
+      "detailSubtitle": "Un chauffeur prive dedie a votre disposition, a l'heure",
+      "detailDescription": "Que vous ayez des reunions d'affaires enchainees, une journee de shopping de luxe ou que vous souhaitiez decouvrir Paris a votre rythme, notre service de chauffeur a l'heure met a votre disposition un conducteur professionnel et un vehicule premium. Effectuez autant d'arrets que necessaire, modifiez votre itineraire en cours de route et profitez de la liberte d'un chauffeur personnel sans les contraintes du stationnement ou de la navigation.",
+      "detailWhyChoose": "Pourquoi louer un chauffeur a l'heure ?",
+      "detailBenefits": {
+        "benefit1": "Flexibilite totale pour modifier votre emploi du temps et itineraire",
+        "benefit2": "Chauffeur professionnel connaissant Paris sur le bout des doigts",
+        "benefit3": "Facturation horaire transparente sans frais caches",
+        "benefit4": "Eau, Wi-Fi et recharge telephone offerts",
+        "benefit5": "Disponible 24 heures sur 24, 7 jours sur 7",
+        "benefit6": "Chauffeurs multilingues pour la clientele internationale"
+      },
+      "detailIdealFor": {
+        "scenario1": "Cadres dirigeants avec plusieurs reunions",
+        "scenario2": "Touristes decouvrant les monuments de Paris",
+        "scenario3": "Excursions shopping sur l'Avenue Montaigne",
+        "scenario4": "Soirees, galas et tournee des restaurants",
+        "scenario5": "Transport du cortege nuptial le jour du mariage",
+        "scenario6": "Services d'escorte diplomatique et VIP"
+      }
+    },
+    "custom": {
+      "name": "Voyage Sur Mesure",
+      "description": "Transport de luxe personnalise pour les longs trajets, mariages, circuits oenologiques, evenements d'entreprise et tout voyage sur mesure en France et en Europe.",
+      "features": {
+        "tailoredItinerary": "Itineraire entierement personnalise pour vous",
+        "longDistance": "Voyages longue distance en France et en Europe",
+        "weddingService": "Service chauffeur et voiture de mariage",
+        "corporateEvents": "Transport pour evenements et conferences d'entreprise",
+        "wineToursChateaux": "Circuits oenologiques en Champagne, Bordeaux, Loire",
+        "dedicatedSupport": "Support conciergerie dedie tout au long de votre voyage"
+      },
+      "detailTitle": "Voyages de Luxe Sur Mesure",
+      "detailSubtitle": "Service VTC sur mesure adapte a chacun de vos besoins",
+      "detailDescription": "Lorsque votre voyage va au-dela d'un simple transfert, Hyppo Mobile cree une experience entierement personnalisee. Des circuits romantiques dans les chateaux de la Loire aux seminaires d'entreprise en Provence, en passant par le luxe du jour de votre mariage ou les voyages transfrontaliers vers Bruxelles, Geneve ou Londres, notre equipe concoit un itineraire sans faille avec des vehicules premium et des chauffeurs experimentes.",
+      "detailWhyChoose": "Pourquoi choisir un voyage sur mesure ?",
+      "detailBenefits": {
+        "benefit1": "Itineraire entierement sur mesure concu autour de vos envies",
+        "benefit2": "Chauffeurs experts connaissant toutes les regions de France",
+        "benefit3": "Selection de vehicules premium dont Rolls-Royce et Bentley",
+        "benefit4": "Service conciergerie pour reservations de restaurants et hotels",
+        "benefit5": "Forfaits multi-jours avec tarification competitive",
+        "benefit6": "Voyages transfrontaliers vers la Belgique, la Suisse, le Royaume-Uni"
+      },
+      "detailPopular": {
+        "journey1": "Journee degustation de champagne au depart de Paris",
+        "journey2": "Circuit des chateaux de la Loire sur deux jours",
+        "journey3": "Transport de mariage avec vehicule decore",
+        "journey4": "Paris - Mont Saint-Michel aller-retour",
+        "journey5": "Circuit des vignobles de Bordeaux depuis Paris",
+        "journey6": "Transferts seminaire d'entreprise multi-sites"
+      }
+    }
+  },
+  "vehicles": {
+    "title": "Notre Flotte de Luxe",
+    "subtitle": "Choisissez parmi notre collection de vehicules premium, chacun entretenu selon les plus hauts standards et equipe de tout le confort pour votre trajet.",
+    "regularTitle": "Flotte Standard",
+    "regularSubtitle": "Nos vehicules les plus populaires avec tarification fixe et transparente",
+    "onDemandTitle": "Collection Premium Sur Demande",
+    "onDemandSubtitle": "Vehicules de luxe exclusifs disponibles sur demande avec tarification personnalisee",
+    "passengers": "Passagers",
+    "luggage": "Bagages",
+    "from": "A partir de",
+    "perHour": "par heure",
+    "requestQuote": "Demander un Devis",
+    "features": {
+      "leatherSeats": "Sieges en cuir",
+      "premiumLeather": "Interieur cuir premium",
+      "wifi": "Wi-Fi gratuit",
+      "climateControl": "Climatisation bi-zone",
+      "phoneCharger": "Recharge USB et sans fil",
+      "bottledWater": "Eau minerale offerte",
+      "champagne": "Champagne offert",
+      "newspaper": "Journaux et magazines du jour",
+      "extraLuggage": "Capacite bagages supplementaire",
+      "massageSeats": "Sieges massants",
+      "privacyPartition": "Cloison de confidentialite",
+      "entertainmentSystem": "Systeme de divertissement arriere",
+      "starlightHeadliner": "Ciel etoile au plafond",
+      "handcraftedInterior": "Interieur bois et cuir artisanal",
+      "terrainResponse": "Capacite tout-terrain",
+      "panoramicRoof": "Toit panoramique en verre"
+    },
+    "businessClass": {
+      "name": "Business Class",
+      "description": "La Mercedes-Benz Classe E ou BMW Serie 5 offre un equilibre parfait entre confort et elegance pour vos transferts aeroport et deplacements professionnels a Paris."
+    },
+    "vanXl": {
+      "name": "Van XL",
+      "description": "Le Mercedes Classe V accueille jusqu'a 7 passagers avec un espace bagages genereux, ideal pour les transferts aeroport en famille et les deplacements en groupe."
+    },
+    "firstClass": {
+      "name": "First Class",
+      "description": "La Mercedes-Benz Classe S offre une experience de luxe inegalee avec un confort de niveau executif pour les voyageurs les plus exigeants."
+    },
+    "mercedesMaybach": {
+      "name": "Mercedes-Maybach",
+      "description": "Le summum du luxe Mercedes. La Maybach Classe S offre un raffinement sans egal avec sieges massants, cloison de confidentialite et service champagne."
+    },
+    "vanVip": {
+      "name": "Van VIP",
+      "description": "Un Mercedes Classe V amenagement VIP avec interieur luxueux, cuir premium, bar a champagne et systeme de divertissement pour les deplacements de groupe haut de gamme."
+    },
+    "sprinter": {
+      "name": "Mercedes Sprinter VIP",
+      "description": "Le transport de groupe ultime. Notre Sprinter configuration VIP accueille jusqu'a 12 passagers dans un confort premiere classe avec divertissement et rafraichissements."
+    },
+    "rollsRoyce": {
+      "name": "Rolls-Royce Phantom",
+      "description": "L'incarnation du luxe automobile. La Rolls-Royce Phantom arbore l'emblematique ciel etoile, un cuir cousu main et une douceur de roulement incomparable."
+    },
+    "bentley": {
+      "name": "Bentley Flying Spur",
+      "description": "L'artisanat britannique a son apogee. La Flying Spur associe des performances exceptionnelles a un luxe artisanal pour un voyage inoubliable."
+    },
+    "rangeRover": {
+      "name": "Range Rover Autobiography",
+      "description": "Presence imposante et confort supreme. Le Range Rover Autobiography offre une experience premium avec vue panoramique et capacite tout-terrain."
+    }
+  },
+  "howItWorks": {
+    "title": "Comment Ca Fonctionne",
+    "subtitle": "Reserver votre service de chauffeur premium a Paris ne prend que quelques etapes simples.",
+    "step1": {
+      "title": "Choisissez Votre Service",
+      "description": "Selectionnez transfert aeroport, chauffeur a l'heure ou voyage sur mesure. Choisissez votre vehicule prefere dans notre flotte de luxe."
+    },
+    "step2": {
+      "title": "Reservez en Ligne",
+      "description": "Renseignez les details de votre trajet et obtenez un tarif instantane pour les services standard ou un devis personnalise rapide."
+    },
+    "step3": {
+      "title": "Recevez la Confirmation",
+      "description": "Recevez votre confirmation de reservation avec les coordonnees de votre chauffeur par email et SMS."
+    },
+    "step4": {
+      "title": "Profitez de Votre Trajet",
+      "description": "Votre chauffeur professionnel arrive a l'heure avec un vehicule premium, pret a vous offrir une experience d'exception."
+    }
+  },
+  "whyChooseUs": {
+    "title": "Pourquoi Choisir Hyppo Mobile",
+    "subtitle": "Nous definissons le standard du service VTC de luxe a Paris avec une qualite et une attention aux details sans compromis.",
+    "professionalChauffeurs": {
+      "title": "Chauffeurs Professionnels",
+      "description": "Nos chauffeurs sont rigoureusement selectionnes, titulaires de la carte VTC et formes a l'accueil. Ils connaissent chaque itineraire de Paris et maintiennent les plus hauts standards de discretion et de professionnalisme."
+    },
+    "availability": {
+      "title": "Disponibilite 24h/24",
+      "description": "Qu'il s'agisse d'un transfert aeroport a l'aube ou d'un evenement en soiree, notre service fonctionne en continu, 365 jours par an. Reservez a tout moment, voyagez a tout moment."
+    },
+    "allOfFrance": {
+      "title": "Toute la France",
+      "description": "Base a Paris, notre service de chauffeur couvre l'ensemble du territoire. Des transferts sur la Riviera aux circuits en Champagne, nous vous emmenons ou vous le souhaitez."
+    },
+    "luxuryFleet": {
+      "title": "Flotte de Luxe",
+      "description": "De la Mercedes Classe E a la Rolls-Royce Phantom, nos vehicules sont meticuleusement entretenus, impeccablement propres et equipes de tout le confort moderne."
+    },
+    "punctuality": {
+      "title": "Ponctualite Garantie",
+      "description": "Nous surveillons le trafic et les vols en temps reel. Votre chauffeur arrive toujours en avance afin que vous n'ayez jamais a attendre. La ponctualite est notre engagement."
+    },
+    "multilingualDrivers": {
+      "title": "Chauffeurs Multilingues",
+      "description": "Nos chauffeurs parlent francais, anglais et souvent d'autres langues, garantissant une communication claire et une experience agreable pour la clientele internationale."
+    }
+  },
+  "serviceAreas": {
+    "title": "Nos Zones de Service",
+    "subtitle": "Service de chauffeur premium a travers Paris et toute la France, avec des voyages transfrontaliers vers les pays voisins.",
+    "paris": "Paris & Ile-de-France",
+    "airports": "Aeroports CDG, Orly, Le Bourget, Beauvais",
+    "riviera": "Cote d'Azur & Riviera francaise",
+    "loire": "Val de Loire & Chateaux",
+    "champagne": "Region Champagne",
+    "bordeaux": "Bordeaux & Vignobles",
+    "normandy": "Normandie & Bretagne",
+    "international": "Transfrontalier vers la Belgique, la Suisse, le Royaume-Uni"
+  },
+  "testimonials": {
+    "title": "Ce que Disent Nos Clients",
+    "subtitle": "Decouvrez pourquoi les voyageurs les plus exigeants choisissent Hyppo Mobile pour leur service VTC a Paris.",
+    "client1": {
+      "name": "Sophie Laurent",
+      "role": "Cadre Dirigeante",
+      "content": "Hyppo Mobile est mon service de chauffeur de reference a Paris depuis plus de trois ans. Les chauffeurs sont toujours impeccablement vetus, parfaitement ponctuels, et la Mercedes Classe S est un reve pour mes trajets quotidiens entre reunions."
+    },
+    "client2": {
+      "name": "James Richardson",
+      "role": "Voyageur International",
+      "content": "J'utilise Hyppo Mobile a chaque fois que j'atterris a CDG. Le service de transfert aeroport est irreprochable : mon chauffeur m'attendait avec un panneau nominatif malgre une heure de retard de mon vol. Un professionnalisme remarquable."
+    },
+    "client3": {
+      "name": "Marie-Claire Dubois",
+      "role": "Organisatrice de Mariages",
+      "content": "Nous collaborons avec Hyppo Mobile pour nos mariages de luxe depuis deux saisons. Le service Rolls-Royce Phantom est extraordinaire, et les chauffeurs gerent chaque detail avec grace et discretion."
+    },
+    "client4": {
+      "name": "Thomas Weber",
+      "role": "Directeur Voyages d'Affaires",
+      "content": "Gerer les deplacements des cadres dirigeants pour notre bureau parisien exige une fiabilite absolue. Hyppo Mobile offre un service constamment excellent avec une flotte diversifiee adaptee a chaque occasion et budget."
+    }
+  },
+  "partners": {
+    "title": "Partenaires de Confiance",
+    "subtitle": "Nous collaborons fierement avec les hotels, compagnies aeriennes et marques de luxe les plus prestigieux de Paris."
+  },
+  "faq": {
+    "title": "Questions Frequentes",
+    "subtitle": "Trouvez les reponses aux questions les plus courantes sur notre service de chauffeur premium a Paris.",
+    "categories": {
+      "all": "Toutes les Questions",
+      "booking": "Reservation",
+      "pricing": "Tarification",
+      "services": "Services",
+      "vehicles": "Vehicules",
+      "cancellation": "Annulation"
+    },
+    "booking": {
+      "q1": "Comment reserver un service de chauffeur avec Hyppo Mobile ?",
+      "a1": "Vous pouvez reserver directement sur notre site en selectionnant votre type de service, en choisissant un vehicule et en renseignant les details de votre trajet. Vous recevrez une confirmation instantanee par email. Vous pouvez egalement nous appeler ou nous envoyer un message WhatsApp pour une assistance personnalisee.",
+      "q2": "Combien de temps a l'avance dois-je reserver mon VTC ?",
+      "a2": "Nous recommandons de reserver au moins 24 heures a l'avance pour garantir la disponibilite du vehicule, en particulier pour les vehicules premium et sur demande. Cependant, nous acceptons les reservations de derniere minute dans la mesure du possible, n'hesitez donc pas a nous contacter meme dans l'urgence.",
+      "q3": "Puis-je modifier ma reservation apres confirmation ?",
+      "a3": "Oui, vous pouvez modifier votre reservation jusqu'a 6 heures avant l'heure de prise en charge prevue sans frais supplementaires. Les changements de type de vehicule ou les modifications significatives d'itineraire peuvent affecter le tarif. Veuillez contacter notre equipe support pour effectuer toute modification."
+    },
+    "pricing": {
+      "q1": "Comment le tarif est-il calcule pour les transferts aeroport ?",
+      "a1": "Le tarif des transferts aeroport est fixe et base sur la categorie du vehicule. Le prix couvre le service porte-a-porte entre toute adresse parisienne et l'aeroport, incluant 60 minutes d'attente gratuite, le suivi de vol, l'accueil personnalise et l'assistance bagages. Il n'y a aucun frais cache ni majoration.",
+      "q2": "Y a-t-il des frais supplementaires a prevoir ?",
+      "a2": "Notre tarification est entierement transparente. Le prix indique comprend le vehicule, le chauffeur, le carburant, les peages, le stationnement et le temps d'attente (60 minutes pour les aeroports, 15 minutes pour les autres prises en charge). Des frais supplementaires s'appliquent uniquement pour une attente prolongee au-dela du forfait inclus ou les reservations de nuit entre minuit et 6h du matin.",
+      "q3": "Quels modes de paiement acceptez-vous ?",
+      "a3": "Nous acceptons toutes les cartes bancaires (Visa, Mastercard, American Express), les virements bancaires pour les comptes entreprises et les paiements en especes. Le paiement est traite de maniere securisee apres la fin de votre course. Les clients entreprises peuvent beneficier d'une facturation mensuelle."
+    },
+    "services": {
+      "q1": "Proposez-vous un accueil personnalise a l'aeroport ?",
+      "a1": "Oui, pour tous les transferts aeroport, votre chauffeur vous attend dans le hall d'arrivee avec un panneau a votre nom. Il prend en charge vos bagages et vous accompagne jusqu'a votre vehicule. Nous suivons votre vol en temps reel, l'heure de prise en charge s'ajuste donc automatiquement en cas d'avance ou de retard.",
+      "q2": "Puis-je louer un chauffeur pour une journee ou un voyage de plusieurs jours ?",
+      "a2": "Absolument. Notre service de chauffeur a l'heure est parfait pour la mise a disposition a la journee, et nous proposons des tarifs speciaux pour les reservations multi-jours. Que vous ayez besoin d'un chauffeur pour une journee de reunions, un week-end en Champagne ou un circuit d'une semaine, nous creons un forfait sur mesure.",
+      "q3": "Proposez-vous un service de voiture de mariage avec chauffeur ?",
+      "a3": "Oui, nous sommes specialises dans le transport de luxe pour les mariages. Choisissez parmi notre flotte premium, notamment la Rolls-Royce Phantom et la Bentley Flying Spur. Nous assurons la decoration du vehicule, un chauffeur en tenue et la coordination avec votre organisateur de mariage pour que chaque detail soit parfait."
+    },
+    "vehicles": {
+      "q1": "Quels vehicules sont disponibles dans votre flotte ?",
+      "a1": "Notre flotte comprend la Mercedes-Benz Classe E (Business Class), le Mercedes Classe V (Van XL pour les groupes), la Mercedes Classe S (First Class), la Mercedes-Maybach, le Van VIP, le Mercedes Sprinter (jusqu'a 12 passagers), la Rolls-Royce Phantom, la Bentley Flying Spur et le Range Rover Autobiography.",
+      "q2": "Puis-je demander un vehicule specifique pour ma reservation ?",
+      "a2": "Oui, vous selectionnez votre vehicule prefere lors de la reservation. Les vehicules de la flotte standard (Business Class, Van XL, First Class) sont disponibles avec tarification instantanee. Les vehicules premium sur demande (Maybach, Rolls-Royce, Bentley, Range Rover) necessitent un devis et sont soumis a disponibilite.",
+      "q3": "Des sieges enfants sont-ils disponibles dans vos vehicules ?",
+      "a3": "Oui, nous fournissons des sieges enfants et des rehausseurs sans frais supplementaires. Veuillez indiquer le nombre et l'age des enfants lors de votre reservation afin que nous puissions installer les sieges de securite adaptes a l'avance. Nous disposons de sieges nourrisson, sieges enfant et rehausseurs."
+    },
+    "cancellation": {
+      "q1": "Quelle est votre politique d'annulation ?",
+      "a1": "Les annulations effectuees plus de 24 heures avant l'heure de prise en charge prevue sont integralement remboursees. Les annulations entre 12 et 24 heures avant la prise en charge entrainent une facturation de 50 %. Les annulations moins de 12 heures avant ou les absences sont facturees au tarif plein. Les vehicules sur demande peuvent avoir des conditions specifiques.",
+      "q2": "Que se passe-t-il si mon vol est annule ou significativement retarde ?",
+      "a2": "Comme nous suivons tous les vols en temps reel, nous ajustons automatiquement l'heure de prise en charge en cas de retard. Si votre vol est annule, veuillez nous prevenir des que possible et nous reprogrammerons votre transfert sans frais supplementaires ou procederons a un remboursement integral.",
+      "q3": "Puis-je obtenir un remboursement si je raccourcis ma reservation horaire ?",
+      "a3": "Si vous terminez votre reservation horaire plus tot que prevu, vous serez facture pour la duree minimale de reservation (2 heures) ou le temps reel utilise, selon le montant le plus eleve. Le temps non utilise au-dela du minimum n'est pas facture. Veuillez noter que cela s'applique uniquement aux reservations horaires."
+    }
+  },
+  "cta": {
+    "title": "Pret a Decouvrir un Service VTC Premium ?",
+    "subtitle": "Reservez votre chauffeur de luxe a Paris des aujourd'hui et decouvrez pourquoi des milliers de clients font confiance a Hyppo Mobile pour leurs deplacements.",
+    "bookNow": "Reservez Maintenant",
+    "callUs": "Ou appelez-nous au +33 1 23 45 67 89"
+  },
+  "newsletter": {
+    "title": "Restez Informe",
+    "subtitle": "Inscrivez-vous pour recevoir nos offres exclusives, conseils de voyage et actualites Hyppo Mobile.",
+    "placeholder": "Entrez votre adresse email",
+    "subscribe": "S'inscrire",
+    "privacy": "Nous respectons votre vie privee. Desinscription a tout moment."
+  },
+  "booking": {
+    "title": "Reservez Votre Chauffeur",
+    "subtitle": "Remplissez le formulaire ci-dessous pour reserver votre service VTC premium a Paris. Obtenez un tarif instantane pour les vehicules standard ou un devis personnalise rapide.",
+    "serviceType": "Type de Service",
+    "selectService": "Selectionnez un service",
+    "airportTransfer": "Transfert Aeroport",
+    "hourlyChauffeur": "Chauffeur a l'Heure",
+    "customJourney": "Voyage Sur Mesure",
+    "selectVehicle": "Selectionnez un Vehicule",
+    "chooseVehicle": "Choisissez votre vehicule",
+    "yourDetails": "Vos Coordonnees",
+    "customerName": "Nom Complet",
+    "customerNamePlaceholder": "Entrez votre nom complet",
+    "customerEmail": "Adresse Email",
+    "customerEmailPlaceholder": "votre@email.com",
+    "customerPhone": "Numero de Telephone",
+    "customerPhonePlaceholder": "+33 6 12 34 56 78",
+    "tripDetails": "Details du Trajet",
+    "pickupLocation": "Lieu de Prise en Charge",
+    "pickupPlaceholder": "Entrez l'adresse de depart",
+    "dropoffLocation": "Lieu de Destination",
+    "dropoffPlaceholder": "Entrez l'adresse de destination",
+    "date": "Date",
+    "datePlaceholder": "Selectionnez une date",
+    "time": "Heure",
+    "timePlaceholder": "Selectionnez une heure",
+    "selectAirport": "Selectionnez un aeroport",
+    "airportCDG": "Paris Charles de Gaulle (CDG)",
+    "airportOrly": "Paris Orly (ORY)",
+    "airportLeBourget": "Paris Le Bourget (LBG)",
+    "airportBeauvais": "Beauvais-Tille (BVA)",
+    "flightNumber": "Numero de Vol",
+    "flightNumberPlaceholder": "ex. AF1234",
+    "hours": "Nombre d'Heures",
+    "hoursPlaceholder": "Selectionnez les heures (1-24)",
+    "notes": "Notes Supplementaires",
+    "notesPlaceholder": "Demandes speciales, sieges enfants, arrets supplementaires...",
+    "priceEstimate": "Estimation du Tarif",
+    "totalPrice": "Tarif Total",
+    "quoteRequired": "Devis personnalise requis",
+    "quoteExplanation": "Pour cette combinaison de vehicule et de service, nous vous enverrons un devis personnalise sous 1 heure.",
+    "submitBooking": "Confirmer la Reservation",
+    "submitForQuote": "Demander un Devis",
+    "bookingSuccess": "Reservation confirmee ! Consultez votre email pour les details.",
+    "quoteSuccess": "Demande de devis envoyee ! Nous vous contacterons sous 1 heure.",
+    "bookingError": "Une erreur est survenue. Veuillez reessayer ou nous appeler directement.",
+    "metaTitle": "Reservez un Chauffeur Prive a Paris | Transfert Aeroport & VTC | Hyppo Mobile",
+    "metaDescription": "Reservez votre chauffeur prive VTC a Paris en ligne. Tarif instantane pour transferts aeroport CDG et Orly, mise a disposition a l'heure et voyages sur mesure. Flotte premium disponible.",
+    "vehicleSelection": "Selectionnez Votre Vehicule",
+    "customerInfo": "Vos Informations",
+    "name": "Nom Complet",
+    "email": "Adresse Email",
+    "phone": "Numero de Telephone",
+    "priceSummary": "Recapitulatif du Tarif",
+    "hoursLabel": "heures",
+    "priceOnRequest": "Tarif sur demande",
+    "success": {
+      "title": "Reservation Confirmee !",
+      "message": "Merci d'avoir reserve avec Hyppo Mobile. Vous recevrez un email de confirmation avec les details de votre chauffeur et vehicule sous peu."
+    },
+    "bookAnother": "Reserver une Autre Course",
+    "submitError": "Une erreur est survenue. Veuillez reessayer ou nous appeler directement.",
+    "airportDetails": "Details Aeroport",
+    "selectRoute": "Sélectionnez votre trajet",
+    "airportRoute": "Trajet aéroport",
+    "routes": {
+      "parisCdg": "Paris → Charles de Gaulle (CDG)",
+      "cdgParis": "Charles de Gaulle (CDG) → Paris",
+      "parisOrly": "Paris → Orly (ORY)",
+      "orlyParis": "Orly (ORY) → Paris",
+      "parisBeauvais": "Paris → Beauvais (BVA)",
+      "beauvaisParis": "Beauvais (BVA) → Paris",
+      "cdgOrly": "Charles de Gaulle (CDG) → Orly (ORY)",
+      "orlyCdg": "Orly (ORY) → Charles de Gaulle (CDG)"
+    },
+    "dateTime": "Date et Heure",
+    "submitting": "Envoi en cours...",
+    "submit": "Confirmer la Reservation",
+    "airport": "Transfert Aeroport",
+    "airportDesc": "Vers et depuis tous les aeroports parisiens avec chauffeur prive professionnel",
+    "hourly": "Chauffeur a l'Heure",
+    "hourlyDesc": "Reservez un chauffeur prive a l'heure pour vos rendez-vous et evenements",
+    "custom": "Voyage Sur Mesure",
+    "customDesc": "Transport personnalise vers toute destination en France et au-dela",
+    "maxKmNote": "Maximum 20 km inclus par heure. Distance supplementaire facturee separement."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Une question ou besoin d'un devis personnalise ? Contactez notre equipe et nous vous repondrons dans les plus brefs delais.",
+    "name": "Votre Nom",
+    "namePlaceholder": "Entrez votre nom complet",
+    "email": "Adresse Email",
+    "emailPlaceholder": "votre@email.com",
+    "phone": "Numero de Telephone",
+    "phonePlaceholder": "+33 6 12 34 56 78",
+    "subject": "Objet",
+    "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+    "message": "Message",
+    "messagePlaceholder": "Decrivez vos besoins de transport...",
+    "send": "Envoyer le Message",
+    "success": "Message envoye avec succes ! Nous vous repondrons dans les plus brefs delais.",
+    "error": "L'envoi du message a echoue. Veuillez reessayer ou nous appeler directement.",
+    "info": {
+      "title": "Nous Contacter",
+      "address": "123 Avenue des Champs-Elysees, 75008 Paris, France",
+      "phone": "+33 1 23 45 67 89",
+      "email": "contact@hyppomobile.com",
+      "hours": "Disponible 24h/24",
+      "whatsapp": "WhatsApp : +33 6 12 34 56 78"
+    }
+  },
+  "about": {
+    "title": "A Propos de Hyppo Mobile",
+    "subtitle": "Decouvrez l'histoire du service de chauffeur premium de reference a Paris.",
+    "story": {
+      "title": "Notre Histoire",
+      "p1": "Hyppo Mobile a ete fonde avec une vision claire : redefinir le transport prive a Paris en combinant les plus hauts standards de luxe, de fiabilite et de service personnalise. Ce qui a commence avec une petite flotte de vehicules premium est devenu l'un des services VTC les plus reconnus de France.",
+      "p2": "Au cours de la derniere decennie, nous avons effectue plus de 5 000 courses pour des voyageurs exigeants, cadres dirigeants, diplomates et personnalites qui n'acceptent rien de moins que l'excellence. Notre engagement envers la ponctualite, la discretion et le confort nous a valu un taux de satisfaction client de 98 %.",
+      "p3": "Aujourd'hui, notre flotte va de l'elegante Mercedes-Benz Classe E a la prestigieuse Rolls-Royce Phantom, garantissant que nous disposons du vehicule parfait pour chaque occasion. Chaque trajet avec Hyppo Mobile est une experience concue autour de vos besoins."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Offrir une experience VTC inegalee alliant luxe, securite et fiabilite. Nous nous efforcons de rendre chaque trajet memorable, qu'il s'agisse d'un transfert aeroport de quelques minutes ou d'un circuit d'une semaine a travers la France."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous maintenons les plus hauts standards dans chaque aspect de notre service, de l'entretien des vehicules a la formation des chauffeurs."
+      },
+      "reliability": {
+        "title": "Fiabilite",
+        "description": "La ponctualite est non negociable. Nous suivons les vols, surveillons le trafic et arrivons toujours en avance."
+      },
+      "discretion": {
+        "title": "Discretion",
+        "description": "Votre vie privee est primordiale. Nos chauffeurs sont formes a la confidentialite et a la conduite professionnelle."
+      },
+      "personalization": {
+        "title": "Personnalisation",
+        "description": "Chaque client est unique. Nous adaptons notre service a vos preferences et exigences specifiques."
+      }
+    },
+    "team": {
+      "title": "Notre Equipe",
+      "description": "Nos chauffeurs sont le coeur de Hyppo Mobile. Chaque conducteur est soigneusement selectionne a travers un processus rigoureux evaluant les competences de conduite, la connaissance locale, la maitrise des langues et le sens de l'accueil. Tous les chauffeurs detiennent une carte professionnelle VTC et suivent des formations regulieres en securite, savoir-vivre et service client."
+    }
+  },
+  "fleet": {
+    "title": "Notre Flotte Premium",
+    "subtitle": "Explorez notre collection de vehicules de luxe, chacun meticuleusement entretenu et equipe pour offrir une experience VTC d'exception a Paris et au-dela.",
+    "regularSection": "Flotte Standard",
+    "regularDescription": "Notre flotte principale de vehicules premium avec tarification transparente et fixe pour les transferts aeroport et la mise a disposition.",
+    "onDemandSection": "Collection Premium Sur Demande",
+    "onDemandDescription": "Vehicules ultra-luxe exclusifs disponibles sur demande. Contactez-nous pour une tarification personnalisee et la disponibilite.",
+    "bookThisVehicle": "Reserver ce Vehicule",
+    "requestQuoteFor": "Demander un Devis"
+  },
+  "terms": {
+    "title": "Conditions Generales",
+    "lastUpdated": "Derniere mise a jour : mars 2026",
+    "intro": "Les presentes conditions generales regissent l'utilisation des services de chauffeur Hyppo Mobile. En effectuant une reservation, vous acceptez les conditions suivantes.",
+    "section1": {
+      "title": "1. Reservation et Confirmation",
+      "content": "Toutes les reservations sont soumises a la disponibilite des vehicules. Une reservation n'est confirmee que lorsque vous recevez une confirmation ecrite par email. Nous nous reservons le droit d'attribuer un vehicule equivalent ou superieur si le vehicule demande n'est pas disponible. Les reservations peuvent etre effectuees via notre site internet, par telephone ou par email."
+    },
+    "section2": {
+      "title": "2. Tarification et Paiement",
+      "content": "Les tarifs des vehicules standard et des transferts aeroport sont fixes au moment de la reservation. Les tarifs horaires sont factures a l'heure avec un minimum de 2 heures. Les devis pour les voyages sur mesure sont valables 7 jours a compter de leur emission. Le paiement est du a la fin de la prestation sauf accord contraire pour les comptes entreprises. Nous acceptons Visa, Mastercard, American Express, virement bancaire et especes."
+    },
+    "section3": {
+      "title": "3. Politique d'Annulation",
+      "content": "Annulation gratuite jusqu'a 24 heures avant l'heure de prise en charge prevue. Les annulations entre 12 et 24 heures avant la prise en charge entrainent une facturation de 50 %. Les annulations moins de 12 heures avant ou les absences sont facturees au tarif plein. Les vehicules sur demande et premium peuvent avoir des conditions d'annulation specifiques communiquees au moment de la reservation."
+    },
+    "section4": {
+      "title": "4. Temps d'Attente",
+      "content": "Pour les transferts aeroport, 60 minutes d'attente gratuite sont incluses a compter de l'heure effective d'atterrissage. Pour toutes les autres prises en charge, 15 minutes d'attente gratuite sont incluses a partir de l'heure de rendez-vous convenue. L'attente supplementaire est facturee selon un tarif communique au moment de la reservation."
+    },
+    "section5": {
+      "title": "5. Responsabilites du Passager",
+      "content": "Les passagers doivent adopter un comportement respectueux et securitaire. Il est strictement interdit de fumer dans tous les vehicules. Le passager est responsable de tout dommage cause a l'interieur du vehicule, y compris taches, brulures ou bris. Hyppo Mobile se reserve le droit de mettre fin a une course si le comportement du passager met en danger la securite."
+    },
+    "section6": {
+      "title": "6. Responsabilite",
+      "content": "Hyppo Mobile dispose d'une assurance responsabilite civile professionnelle et d'une assurance passagers conformes a la legislation francaise applicable aux exploitants VTC. Notre responsabilite pour les retards causes par le trafic, les fermetures de routes ou les cas de force majeure est limitee a un geste commercial a notre discretion. Nous ne sommes pas responsables des objets oublies dans les vehicules, bien que nous fassions des efforts raisonnables pour les retrouver et les restituer."
+    },
+    "section7": {
+      "title": "7. Protection des Donnees",
+      "content": "Nous collectons et traitons les donnees personnelles conformement au Reglement General sur la Protection des Donnees (RGPD) et a la loi francaise sur la protection des donnees. Pour plus de details, veuillez consulter notre Politique de Confidentialite."
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialite",
+    "lastUpdated": "Derniere mise a jour : mars 2026",
+    "intro": "Hyppo Mobile s'engage a proteger votre vie privee. Cette politique explique comment nous collectons, utilisons et protegeons vos informations personnelles.",
+    "section1": {
+      "title": "1. Informations Collectees",
+      "content": "Nous collectons les informations que vous fournissez lors de la reservation d'un service, notamment votre nom, adresse email, numero de telephone, lieux de depart et de destination, dates de voyage et informations de paiement. Nous collectons egalement des donnees techniques telles que votre adresse IP, type de navigateur et informations sur votre appareil lorsque vous visitez notre site."
+    },
+    "section2": {
+      "title": "2. Utilisation de Vos Informations",
+      "content": "Vos informations personnelles sont utilisees pour traiter et executer vos reservations, communiquer les confirmations et mises a jour, fournir un support client, envoyer des communications marketing (uniquement avec votre consentement), ameliorer nos services et l'experience de notre site, et nous conformer aux obligations legales."
+    },
+    "section3": {
+      "title": "3. Partage des Donnees",
+      "content": "Nous ne vendons pas vos donnees personnelles a des tiers. Nous partageons vos informations uniquement avec nos chauffeurs (nom et details de prise en charge pour l'execution du service), les prestataires de paiement (pour le traitement securise des transactions) et les autorites legales (lorsque la loi l'exige). Tous les partenaires tiers sont lies par des accords de protection des donnees."
+    },
+    "section4": {
+      "title": "4. Conservation des Donnees",
+      "content": "Nous conservons vos donnees personnelles aussi longtemps que necessaire pour fournir nos services et nous conformer aux obligations legales. Les registres de reservation sont conserves pendant 5 ans conformement au droit commercial francais. Les registres de consentement marketing sont maintenus jusqu'au retrait de votre consentement. Vous pouvez demander la suppression de vos donnees a tout moment."
+    },
+    "section5": {
+      "title": "5. Vos Droits",
+      "content": "En vertu du RGPD, vous disposez du droit d'acceder a vos donnees personnelles, de rectifier les donnees inexactes, de demander l'effacement de vos donnees, de limiter le traitement, a la portabilite des donnees, de vous opposer au traitement et de retirer votre consentement. Pour exercer l'un de ces droits, contactez-nous a privacy@hyppomobile.com."
+    },
+    "section6": {
+      "title": "6. Cookies",
+      "content": "Notre site utilise des cookies pour assurer son fonctionnement, analyser le trafic et personnaliser votre experience. Les cookies essentiels sont necessaires au fonctionnement du site. Les cookies analytiques nous aident a comprendre comment les visiteurs utilisent notre site. Les cookies marketing ne sont utilises qu'avec votre consentement explicite. Vous pouvez gerer vos preferences de cookies via les parametres de votre navigateur."
+    },
+    "section7": {
+      "title": "7. Contact",
+      "content": "Pour toute question concernant cette politique de confidentialite ou vos donnees personnelles, veuillez contacter notre Delegue a la Protection des Donnees a privacy@hyppomobile.com ou ecrire a Hyppo Mobile, 123 Avenue des Champs-Elysees, 75008 Paris, France."
+    }
+  },
+  "footer": {
+    "description": "Service VTC et chauffeur prive premium a Paris et dans toute la France. Transferts aeroport de luxe, mise a disposition et voyages sur mesure avec chauffeurs professionnels.",
+    "services": "Services",
+    "airportTransfers": "Transferts Aeroport",
+    "hourlyChauffeur": "Chauffeur a l'Heure",
+    "customJourneys": "Voyages Sur Mesure",
+    "corporateTravel": "Voyages d'Affaires",
+    "weddingService": "Voiture de Mariage",
+    "company": "Entreprise",
+    "aboutUs": "A Propos",
+    "ourFleet": "Notre Flotte",
+    "careers": "Carrieres",
+    "blog": "Blog",
+    "legal": "Mentions Legales",
+    "termsConditions": "Conditions Generales",
+    "privacyPolicy": "Politique de Confidentialite",
+    "cookiePolicy": "Politique de Cookies",
+    "legalNotice": "Mentions Legales",
+    "contact": "Contact",
+    "address": "123 Avenue des Champs-Elysees",
+    "city": "75008 Paris, France",
+    "phone": "+33 1 23 45 67 89",
+    "email": "contact@hyppomobile.com",
+    "copyright": "Hyppo Mobile. Tous droits reserves. VTC immatricule en France.",
+    "madeWith": "Fait avec excellence a Paris"
+  },
+  "common": {
+    "bookNow": "Reservez Maintenant",
+    "requestQuote": "Demander un Devis",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tout",
+    "submitForQuote": "Soumettre pour Devis",
+    "sendMessage": "Envoyer le Message",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "success": "Succes",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Precedent",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "noResults": "Aucun resultat trouve",
+    "readMore": "Lire la Suite",
+    "seeAll": "Tout Voir",
+    "getStarted": "Commencer",
+    "contactUs": "Contactez-Nous",
+    "callNow": "Appelez Maintenant",
+    "whatsapp": "WhatsApp",
+    "from": "A partir de",
+    "perHour": "par heure",
+    "free": "Gratuit",
+    "included": "Inclus",
+    "optional": "Optionnel",
+    "required": "Obligatoire"
+  },
+  "validation": {
+    "nameMin": "Le nom doit comporter au moins 2 caracteres",
+    "emailInvalid": "Veuillez entrer une adresse email valide",
+    "phoneMin": "Le numero de telephone doit comporter au moins 8 chiffres",
+    "pickupRequired": "Le lieu de prise en charge est obligatoire",
+    "dropoffRequired": "Le lieu de destination est obligatoire",
+    "dateRequired": "Veuillez selectionner une date",
+    "timeRequired": "Veuillez selectionner une heure",
+    "airportRequired": "Veuillez selectionner un aeroport pour les transferts aeroport",
+    "hoursRequired": "Veuillez specifier le nombre d'heures (1-24)",
+    "subjectRequired": "L'objet doit comporter au moins 3 caracteres",
+    "messageMin": "Le message doit comporter au moins 10 caracteres",
+    "selectService": "Veuillez selectionner un type de service",
+    "selectVehicle": "Veuillez selectionner un vehicule",
+    "pleaseFillRequired": "Veuillez remplir les champs obligatoires suivants :"
+  },
+  "meta": {
+    "home": {
+      "title": "Hyppo Mobile | Service VTC et Chauffeur Prive Premium a Paris | Transferts Aeroport",
+      "description": "Reservez un VTC de luxe avec chauffeur prive a Paris. Transferts aeroport CDG et Orly, mise a disposition a l'heure et voyages sur mesure. Flotte premium Mercedes, Rolls-Royce et Bentley."
+    },
+    "booking": {
+      "title": "Reservez un Chauffeur a Paris | Tarif Instantane | Hyppo Mobile",
+      "description": "Reservez votre service VTC premium a Paris en ligne. Tarification instantanee pour les transferts aeroport et la mise a disposition. Choisissez parmi notre flotte de luxe Mercedes, Rolls-Royce et plus."
+    },
+    "fleet": {
+      "title": "Notre Flotte de Luxe | Mercedes, Rolls-Royce, Bentley | Hyppo Mobile Paris",
+      "description": "Decouvrez notre flotte de vehicules de luxe avec chauffeur a Paris. Mercedes Classe S, Rolls-Royce Phantom, Bentley Flying Spur, Range Rover et plus encore."
+    },
+    "services": {
+      "title": "Services VTC a Paris | Transferts Aeroport et Mise a Disposition | Hyppo Mobile",
+      "description": "Decouvrez nos services VTC premium : transferts aeroport Paris avec suivi de vol, mise a disposition a l'heure et voyages de luxe sur mesure en France et en Europe."
+    },
+    "about": {
+      "title": "A Propos de Hyppo Mobile | Service VTC Premium de Confiance a Paris",
+      "description": "Decouvrez Hyppo Mobile, le service VTC premium de reference a Paris. Plus de 10 ans d'experience, 5000+ courses effectuees et un taux de satisfaction client de 98 %."
+    },
+    "contact": {
+      "title": "Contactez Hyppo Mobile | Service VTC Premium Paris",
+      "description": "Contactez Hyppo Mobile pour un service VTC de luxe a Paris. Disponible 24h/24 par telephone, email ou WhatsApp. Devis personnalise sous 1 heure."
+    },
+    "faq": {
+      "title": "FAQ | Service VTC Chauffeur Paris | Hyppo Mobile",
+      "description": "Questions frequentes sur le service VTC premium Hyppo Mobile a Paris. Reservation, tarification, vehicules, politique d'annulation et plus encore."
+    },
+    "terms": {
+      "title": "Conditions Generales | Hyppo Mobile Paris",
+      "description": "Consultez les conditions generales du service VTC et chauffeur prive Hyppo Mobile a Paris, France."
+    },
+    "privacy": {
+      "title": "Politique de Confidentialite | Hyppo Mobile Paris",
+      "description": "Politique de confidentialite Hyppo Mobile. Decouvrez comment nous collectons, utilisons et protegeons vos donnees personnelles conformement au RGPD."
+    },
+    "airportTransfer": {
+      "title": "Transfert Aeroport Paris | CDG, Orly, Le Bourget | Hyppo Mobile",
+      "description": "Reservez un transfert aeroport de luxe a Paris. Service VTC professionnel vers et depuis CDG, Orly, Le Bourget et Beauvais. Tarif fixe, suivi de vol et accueil personnalise inclus."
+    },
+    "hourly": {
+      "title": "Chauffeur a l'Heure Paris | VTC Mise a Disposition | Hyppo Mobile",
+      "description": "Louez un chauffeur professionnel a l'heure a Paris. Ideal pour reunions d'affaires, visites touristiques, shopping et evenements. Vehicules premium et planning flexible."
+    },
+    "custom": {
+      "title": "Voyages de Luxe Sur Mesure | Circuits, Mariages, Longue Distance | Hyppo Mobile",
+      "description": "Creez votre voyage de luxe ideal avec Hyppo Mobile. Circuits oenologiques en Champagne et Bordeaux, voiture de mariage, voyages longue distance et itineraires sur mesure en France."
+    }
+  }
+}

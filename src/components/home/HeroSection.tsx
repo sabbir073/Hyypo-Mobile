@@ -34,7 +34,7 @@ export default function HeroSection() {
   });
 
   return (
-    <section className="relative min-h-[600px] h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen lg:h-screen flex items-center overflow-hidden pt-24 pb-12 lg:pt-0 lg:pb-0">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-brand-black via-brand-gray-900 to-brand-black" />
 
@@ -69,11 +69,11 @@ export default function HeroSection() {
       />
 
       <Container className="relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left Content */}
           <div>
             <motion.h1
-              className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-brand-white leading-tight"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-brand-white leading-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, ease: 'easeOut' }}
@@ -82,7 +82,7 @@ export default function HeroSection() {
             </motion.h1>
 
             <motion.p
-              className="mt-6 text-lg md:text-xl text-brand-gray-200 leading-relaxed max-w-lg"
+              className="mt-4 lg:mt-6 text-base md:text-lg lg:text-xl text-brand-gray-200 leading-relaxed max-w-lg"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.15, ease: 'easeOut' }}
@@ -91,7 +91,7 @@ export default function HeroSection() {
             </motion.p>
 
             <motion.div
-              className="mt-8 flex flex-wrap gap-4"
+              className="mt-6 lg:mt-8 flex flex-wrap gap-3"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3, ease: 'easeOut' }}

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
@@ -27,9 +28,13 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           className="fixed inset-0 z-50 bg-brand-black flex flex-col"
         >
           <div className="flex items-center justify-between px-6 py-5">
-            <span className="text-xl font-heading font-bold text-white tracking-wider">
-              HYPPO <span className="text-brand-orange">MOBILE</span>
-            </span>
+            <Image
+              src="/images/logo3.png"
+              alt="Hyppo Mobile"
+              width={140}
+              height={44}
+              className="h-10 w-auto object-contain"
+            />
             <button
               type="button"
               onClick={onClose}

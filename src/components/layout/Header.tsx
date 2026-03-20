@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Menu } from 'lucide-react';
@@ -50,9 +51,14 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="shrink-0">
-              <span className="text-xl font-heading font-bold text-white tracking-wider">
-                HYPPO <span className="text-brand-orange">MOBILE</span>
-              </span>
+              <Image
+                src="/images/logo3.png"
+                alt="Hyppo Mobile"
+                width={160}
+                height={50}
+                className="h-12 w-auto object-contain"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}

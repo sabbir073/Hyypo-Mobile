@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
@@ -13,9 +14,13 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Column 1: Logo + Description + Social */}
           <div className="space-y-4">
-            <span className="text-2xl font-heading font-bold tracking-wider">
-              HYPPO <span className="text-brand-orange">MOBILE</span>
-            </span>
+            <Image
+              src="/images/logo3.png"
+              alt="Hyppo Mobile"
+              width={180}
+              height={56}
+              className="h-14 w-auto object-contain"
+            />
             <p className="text-brand-gray-300 text-sm leading-relaxed mt-3">
               {t('description')}
             </p>

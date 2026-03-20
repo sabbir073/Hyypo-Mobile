@@ -21,7 +21,10 @@
       "Bash(mv \"Mercedes Sprinter VIP.jpg\" \"sprinter.jpg\")",
       "Bash(mv \"Rolls-Royce Phantom.jpg\" \"rolls-royce.jpg\")",
       "Bash(mv \"Bentley Flying Spur.jpg\" \"bentley.jpg\")",
-      "Bash(mv \"Range Rover Autobiography.jpg\" \"range-rover.jpg\")"
+      "Bash(mv \"Range Rover Autobiography.jpg\" \"range-rover.jpg\")",
+      "WebSearch",
+      "WebFetch(domain:next-intl.dev)",
+      "WebFetch(domain:developers.google.com)"
     ],
     "additionalDirectories": [
       "C:\\Users\\Sabbir Ahmed\\OneDrive\\Desktop\\hyppomobil\\src\\app\\[locale]"

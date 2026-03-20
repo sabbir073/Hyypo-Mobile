@@ -44,15 +44,6 @@ export const bookingFormSchema = z
   })
   .refine(
     (data) => {
-      if (data.serviceType === 'airport-transfer') {
-        return !!data.airportRoute;
-      }
-      return true;
-    },
-    { message: 'Please select an airport route', path: ['airportRoute'] }
-  )
-  .refine(
-    (data) => {
       if (data.serviceType === 'hourly') {
         return data.hours !== undefined && data.hours >= 1 && data.hours <= 24;
       }

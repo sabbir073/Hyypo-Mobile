@@ -1,18 +1,19 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Loader2, AlertCircle } from 'lucide-react';
+import { Loader2, AlertCircle, MapPin, Navigation, Plane } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { bookingFormSchema } from '@/lib/validators';
+import { detectAirportRoute, getRouteLabel } from '@/lib/route-detection';
 import Button from '@/components/ui/Button';
 import Textarea from '@/components/ui/Textarea';
+import Input from '@/components/ui/Input';
 import ServiceTypeSelector from './ServiceTypeSelector';
 import VehicleSelector from './VehicleSelector';
-import AirportFields from './AirportFields';
 import HourlyFields from './HourlyFields';
 import LocationFields from './LocationFields';
 import DateTimePicker from './DateTimePicker';
@@ -60,6 +61,7 @@ function FullBookingForm({
   const locale = useLocale();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [detectedRoute, setDetectedRoute] = useState<AirportRoute | null>(null);
 
   const {
     register,
@@ -93,6 +95,20 @@ function FullBookingForm({
   const vehicleSlug = watch('vehicleSlug');
   const hours = watch('hours');
   const airportRoute = watch('airportRoute');
+  const pickupLocation = watch('pickupLocation');
+  const dropoffLocation = watch('dropoffLocation');
+
+  // Auto-detect airport route from addresses
+  useEffect(() => {
+    if (serviceType === 'airport-transfer' && pickupLocation && dropoffLocation) {
+      const route = detectAirportRoute(pickupLocation, dropoffLocation);
+      setDetectedRoute(route);
+      setValue('airportRoute', route || undefined, { shouldValidate: false });
+    } else {
+      setDetectedRoute(null);
+      setValue('airportRoute', undefined, { shouldValidate: false });
+    }
+  }, [serviceType, pickupLocation, dropoffLocation, setValue]);
 
   // Friendly error message helper
   const getFieldError = (fieldName: keyof BookingFormData): string | undefined => {
@@ -119,6 +135,7 @@ function FullBookingForm({
     reset();
     setIsSubmitted(false);
     setSubmitError(null);
+    setDetectedRoute(null);
   };
 
   if (isSubmitted) {
@@ -136,7 +153,6 @@ function FullBookingForm({
     if (errors.customerName) missing.push(t('booking.name'));
     if (errors.customerEmail) missing.push(t('booking.email'));
     if (errors.customerPhone) missing.push(t('booking.phone'));
-    if (serviceType === 'airport-transfer' && errors.airportRoute) missing.push(t('booking.airportRoute'));
     if (serviceType === 'hourly' && errors.hours) missing.push(t('booking.hours'));
     return missing;
   };
@@ -195,30 +211,84 @@ function FullBookingForm({
         )}
       </AnimatePresence>
 
-      {/* 3. Airport Route Selection */}
+      {/* 3. Location Fields (Pickup & Dropoff with Google Places) */}
       <AnimatePresence>
-        {serviceType === 'airport-transfer' && (
+        {serviceType && (
           <motion.section
-            key="airport"
+            key="location"
             initial="hidden"
             animate="visible"
             exit="exit"
             variants={sectionVariants}
           >
-            <h3 className="text-lg font-semibold text-brand-black mb-4">
-              {t('booking.airportDetails')}
-            </h3>
-            <AirportFields
-              register={register}
+            <LocationFields
               errors={errors}
               setValue={setValue}
               watch={watch}
+            />
+
+            {/* Auto-detected route badge for airport transfer */}
+            {serviceType === 'airport-transfer' && pickupLocation && dropoffLocation && (
+              <div className="mt-4">
+                {detectedRoute ? (
+                  <div className="flex items-center gap-2 bg-green-50 border border-green-200 rounded-xl px-4 py-3">
+                    <Navigation className="w-5 h-5 text-green-600 shrink-0" />
+                    <div>
+                      <p className="text-sm font-semibold text-green-700">
+                        {t('booking.routeDetected')}: {getRouteLabel(detectedRoute).from} → {getRouteLabel(detectedRoute).to}
+                      </p>
+                      <p className="text-xs text-green-600 mt-0.5">
+                        {t('booking.fixedPriceApplied')}
+                      </p>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
+                    <MapPin className="w-5 h-5 text-amber-600 shrink-0" />
+                    <div>
+                      <p className="text-sm font-semibold text-amber-700">
+                        {t('booking.customRoute')}
+                      </p>
+                      <p className="text-xs text-amber-600 mt-0.5">
+                        {t('booking.priceOnRequestNote')}
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </motion.section>
+        )}
+      </AnimatePresence>
+
+      {/* 3b. Flight number for airport transfers */}
+      <AnimatePresence>
+        {serviceType === 'airport-transfer' && (
+          <motion.section
+            key="flight"
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            variants={sectionVariants}
+          >
+            <div className="flex items-center gap-2 mb-3">
+              <Plane className="w-5 h-5 text-brand-orange" />
+              <h3 className="text-lg font-semibold text-brand-black">
+                {t('booking.flightDetails')}
+              </h3>
+            </div>
+            <Input
+              label={t('booking.flightNumber')}
+              id="flightNumber"
+              placeholder="e.g. AF1234"
+              error={errors.flightNumber?.message}
+              {...register('flightNumber')}
             />
           </motion.section>
         )}
       </AnimatePresence>
 
-      {/* 3b. Hourly Fields */}
+      {/* 3c. Hourly Fields */}
       <AnimatePresence>
         {serviceType === 'hourly' && (
           <motion.section
@@ -238,26 +308,7 @@ function FullBookingForm({
         )}
       </AnimatePresence>
 
-      {/* 4. Location Fields */}
-      <AnimatePresence>
-        {serviceType && (
-          <motion.section
-            key="location"
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            variants={sectionVariants}
-          >
-            <LocationFields
-              errors={errors}
-              setValue={setValue}
-              watch={watch}
-            />
-          </motion.section>
-        )}
-      </AnimatePresence>
-
-      {/* 5. Date & Time */}
+      {/* 4. Date & Time */}
       <AnimatePresence>
         {serviceType && (
           <motion.section
@@ -275,7 +326,7 @@ function FullBookingForm({
         )}
       </AnimatePresence>
 
-      {/* 6. Customer Details */}
+      {/* 5. Customer Details */}
       <AnimatePresence>
         {serviceType && (
           <motion.section
@@ -290,7 +341,7 @@ function FullBookingForm({
         )}
       </AnimatePresence>
 
-      {/* 7. Notes */}
+      {/* 6. Notes */}
       <AnimatePresence>
         {serviceType && (
           <motion.section
@@ -331,7 +382,7 @@ function FullBookingForm({
         <p className="text-sm text-red-500 text-center">{submitError}</p>
       )}
 
-      {/* 8. Sticky Bottom Bar */}
+      {/* 7. Sticky Bottom Bar */}
       <div className="sticky bottom-0 z-20 -mx-4 sm:-mx-6 lg:-mx-8">
         <div className="bg-white border-t border-brand-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.08)] px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between gap-4">

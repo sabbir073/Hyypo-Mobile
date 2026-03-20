@@ -5,7 +5,7 @@ interface MapEmbedProps {
 }
 
 export default function MapEmbed({ className }: MapEmbedProps) {
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
 
   const src = apiKey
     ? `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=123+Avenue+des+Champs-Elysees,+75008+Paris,+France&zoom=15`
